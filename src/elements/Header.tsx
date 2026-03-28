@@ -35,18 +35,16 @@ const Header: React.FC = () => {
   }, []);
 
   return (
-    <header
-      className={`fixed top-0 left-0 w-full z-50 transition ${
-        scrolled
-          ? "bg-transparent backdrop-blur-lg"
-          : "bg-[#FFFFFF] backdrop-blur-lg"
-      }`}
-    >
-      <nav className="max-w-8xl mx-auto flex items-center justify-between px-5 xl:px-30 lg:px-5 py-4">
+    <header className="fixed top-0 left-0 w-full z-50 transition bg-[#FFFFFF] backdrop-blur-lg">
+      <nav className="max-w-8xl mx-auto flex items-center justify-between px-5 xl:px-30 lg:px-5 py-4 ">
         {/* Logo */}
         <div className="flex items-center">
           <a href="/">
-            <img src={homeAsset.Careos} alt="Logo" className="h-8 md:h-10 w-auto" />
+            <img
+              src={homeAsset.Careos}
+              alt="Logo"
+              className="h-8 md:h-10 w-auto"
+            />
           </a>
         </div>
 
@@ -72,11 +70,12 @@ const Header: React.FC = () => {
         </div>
 
         <Link
-            target="_blank"
-            rel="noopener noreferrer"
-            className="hidden lg:flex text-[#FFFFFF] sub-back text-3xl cursor-pointer font-medium text-base px-8 py-3 rounded-lg items-center justify-center gap-2 transition-colors duration-300 capitalize"
-          >
-            order now
+          to="/"
+          target="_self"
+          rel="noopener noreferrer"
+          className="hidden lg:flex text-[#FFFFFF] sub-back cursor-pointer font-medium text-base px-8 py-3 rounded-lg items-center justify-center gap-2 transition-colors duration-300 capitalize"
+        >
+          order now
         </Link>
 
         {/* Mobile Menu Button */}

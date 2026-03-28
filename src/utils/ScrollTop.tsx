@@ -3,7 +3,6 @@ import type { ReactNode } from "react";
 import { useLocation } from "react-router-dom";
 import { motion } from "framer-motion";
 
-// Scroll to top on route change
 const ScrollTop: React.FC = () => {
   const { pathname } = useLocation();
 
@@ -13,8 +12,6 @@ const ScrollTop: React.FC = () => {
 
   return null;
 };
-
-// Page transition wrapper
 interface PageTransitionWrapperProps {
   children: ReactNode;
 }

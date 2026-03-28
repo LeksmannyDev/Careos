@@ -1,6 +1,7 @@
 import { Routes, Route } from "react-router-dom";
 import { ScrollTop, PageTransitionWrapper } from "./utils/ScrollTop";
 import Layout from "./utils/Layout";
+import Home from "./pages/Home";
 
 function App() {
   return (
@@ -11,7 +12,9 @@ function App() {
           path="/"
           element={
             <Layout>
-              <PageTransitionWrapper></PageTransitionWrapper>
+              <PageTransitionWrapper>
+                <Home />
+              </PageTransitionWrapper>
             </Layout>
           }
         />

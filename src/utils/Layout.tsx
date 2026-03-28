@@ -12,7 +12,7 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
       <Header />
 
       {/* Push content below fixed header */}
-      <main>{children}</main>
+      <main className="pt-15 md:pt-15">{children}</main>
 
       <Footer />
     </div>
