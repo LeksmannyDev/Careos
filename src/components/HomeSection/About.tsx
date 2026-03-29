@@ -11,7 +11,7 @@ const About: React.FC = () => {
           </div>
 
           {/* Right Side - Buttons */}
-          <div className="w-full xl:w-1/2 flex flex-col items-center lg:items-start justify-center gap-4 sm:gap-5 px-4 md:px-15">
+          <div className="w-full xl:w-1/2 flex flex-col items-center lg:items-start justify-center gap-4 sm:gap-5 px-8 md:px-18 xl:px-15">
             <h2 className="sub-text uppercase md:text-4xl sm:text-3xl text-2xl font-semibold xl:mt-0 mt-8">
               about us
             </h2>

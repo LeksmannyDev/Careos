@@ -11,7 +11,7 @@ const About2: React.FC = () => {
           </div>
 
           {/* Right Side*/}
-          <div className="w-full xl:w-1/2 flex flex-col justify-center gap-4 sm:gap-5 px-4 md:px-15 py-10">
+          <div className="w-full xl:w-1/2 flex flex-col justify-center gap-4 sm:gap-5 px-0 xl:px-15 py-10">
             <h2 className="sub-text md:text-2xl sm:text-xl text-base font-medium">
               Sed ut perspiciatis unde omnis
             </h2>
