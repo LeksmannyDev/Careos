@@ -7,6 +7,7 @@ import car2 from "./Home/car2.webp";
 import car3 from "./Home/car3.webp";
 import learn1 from "./Home/learn1.webp";
 import learn2 from "./Home/learn2.webp";
+import about2 from "./Home/About2.webp";
 
 export const homeAsset = {
   Careos,
@@ -18,4 +19,5 @@ export const homeAsset = {
   car3,
   learn1,
   learn2,
+  about2,
 };

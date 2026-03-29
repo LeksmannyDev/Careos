@@ -13,7 +13,7 @@ const Learn: React.FC = () => {
               <h2 className="text-xl md:text-xl font-semibold mb-4">
                 Sed ut perspiciatis
               </h2>
-              <p className="text-[#000000CC] text-md ">
+              <p className="text-[#000000CC] text-base ">
                 Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit
                 aut fugit, sed quia conseq uuntur magni dolores eos qui ratione
                 voluptatem se.
@@ -30,12 +30,12 @@ const Learn: React.FC = () => {
 
           {/* Right Side - Buttons */}
           <div className="w-full xl:w-1/2 flex flex-col items-center xl:items-start">
-            <img src={homeAsset.learn1} className="justify-center" alt="" />
+            <img src={homeAsset.learn2} className="justify-center" alt="" />
             <div className="py-10 pb-5">
               <h2 className="text-xl md:text-xl font-semibold mb-4">
                 Lorem ipsum dolor
               </h2>
-              <p className="text-[#000000CC] text-md ">
+              <p className="text-[#000000CC] text-base ">
                 Amet, consectetur adipiscing elit, sed do eiusmod tempor
                 incididunt ut labore et dolore magn aliqua. Ut enim ad minim
                 veniam, quis nostrud exercitation ullamco laboris nisi.

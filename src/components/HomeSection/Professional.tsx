@@ -3,7 +3,7 @@ import { homeAsset } from "../../assets/homeAssets";
 const Professional: React.FC = () => {
   return (
     <section
-      className="relative h-screen w-full flex flex-col"
+      className="relative h-screen w-full flex flex-col px-4 md:px-10"
       style={{
         backgroundImage: `url(${homeAsset.professional})`,
         backgroundSize: "cover",
