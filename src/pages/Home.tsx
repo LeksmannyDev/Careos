@@ -5,6 +5,7 @@ import Professional from "../components/HomeSection/Professional";
 import Latest from "../components/HomeSection/Latest";
 import Learn from "../components/HomeSection/Learn";
 import About2 from "../components/HomeSection/About2";
+import Double from "../components/HomeSection/Double";
 
 const Home: React.FC = () => {
   return (
@@ -15,6 +16,7 @@ const Home: React.FC = () => {
       <Latest />
       <Learn />
       <About2 />
+      <Double />
     </>
   );
 };

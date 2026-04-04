@@ -18,6 +18,36 @@ function App() {
             </Layout>
           }
         />
+        <Route
+          path="/about"
+          element={
+            <Layout>
+              <PageTransitionWrapper>
+                <Home />
+              </PageTransitionWrapper>
+            </Layout>
+          }
+        />
+        <Route
+          path="/cars"
+          element={
+            <Layout>
+              <PageTransitionWrapper>
+                <Home />
+              </PageTransitionWrapper>
+            </Layout>
+          }
+        />
+        <Route
+          path="/services"
+          element={
+            <Layout>
+              <PageTransitionWrapper>
+                <Home />
+              </PageTransitionWrapper>
+            </Layout>
+          }
+        />
       </Routes>
     </>
   );
