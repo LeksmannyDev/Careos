@@ -26,9 +26,8 @@ const Hero: React.FC = () => {
         </p>
 
         {/* Subtext */}
-        <p className="text-md md:text-lg text-white mt-3 max-w-lg">
-          Lorem ipsum dolor sit amet, consectetur adipiscin elitVit ae
-          pellentesque sed etiam tortor.
+        <p className="text-md md:text-xl capitalize text-white mt-3 max-w-lg">
+          your gateway to a world of unparalled automotive excellence
         </p>
 
         <div className="flex flex-col sm:flex-row md:gap-15 gap-5 mt-10 sm:mt-20 md:mt-15">
